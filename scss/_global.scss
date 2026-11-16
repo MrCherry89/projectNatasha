@@ -154,14 +154,14 @@ main.grey-bg{
 
 .listen-blue-btn{
   background: blueviolet;
-  padding: 10px 24px;
+  padding: 10px 20px;
   border-radius: 12px;
   margin-top: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
     @media (max-width: 767px) {
-    padding: 4px 6px;
+    padding: 10px;
     margin-right: 0px;
     border-radius: 4px;
   }
@@ -171,7 +171,8 @@ main.grey-bg{
     height: 34px;
         @media (max-width: 767px) {
     margin-right: 5px;
-    width: 18px;
+    width: 20px;
+    height: 20px;
   }
   }
   span{

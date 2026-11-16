@@ -1109,6 +1109,9 @@
         @media (max-width: 767px) {
           display: inline-block;
         }
+        &.show{
+          display: inline-block;
+        }
       }
       a {
         color: white;
@@ -1586,9 +1589,10 @@
       transition: 0.3s;
       @media (max-width: 767px) {
         max-width: inherit;
-        width: 94%;
+        width: 98%;
         margin: 0;
         padding: 20px;
+        padding-right: 10px;
       }
       &.bg {
         background: white;
@@ -1613,7 +1617,7 @@
       .info {
         padding-right: 20px;
         @media (max-width: 767px) {
-          padding-right: 10px;
+          padding-right: 1px;
         }
         .date {
           padding-bottom: 4px;
@@ -1641,6 +1645,9 @@
           }
         }
         .texts {
+                      @media (max-width: 767px) {
+              margin-left: 12px;
+            }
           h2 {
             font-size: 36px;
             font-weight: 500;
@@ -1868,19 +1875,21 @@
           }
         }
         .listen-album-btn {
-          padding: 16px 40px;
+          padding: 9px 20px;
           border-radius: 12px;
-          border: 3px solid #d90000;
+          border: 1px solid #d90000;
           background: #d90000;
           @include flex;
           @include align-center;
           white-space: nowrap;
+          max-width: 270px;
+          width: 100%;
           @media (max-width: 1024px) {
-            padding: 15px 20px;
+            padding: 10px 20px;
           }
           @media (max-width: 767px) {
-            margin-right: -0px;
-            padding: 10px 15px;
+            margin-right: 0px;
+            padding: 9px 10px;
             border-radius: 4px;
           }
           span {
@@ -1892,9 +1901,9 @@
           img {
             display: inline-block;
             margin-right: 10px;
-
+            width: 34px;
             @media (max-width: 767px) {
-              width: 16px;
+              width: 20px !important;
             }
           }
         }
@@ -2505,7 +2514,7 @@
         .info {
           h2 {
             @media (max-width: 767px) {
-              font-size: 20px;
+              font-size: 18px;
             }
           }
           p {
@@ -2986,6 +2995,14 @@ main.zIndex {
     margin-top: -10px;
       @media (max-width: 767px) {
         display: block !important;
+        text-transform: uppercase;
       }
   }
+}
+
+.text-new{
+        @media (max-width: 767px) {
+        margin-right: 20px;
+        margin-bottom: 0 !important;
+      }
 }
