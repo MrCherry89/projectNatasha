@@ -4806,6 +4806,9 @@ main.main-bg:after {
 .archive-wrap .info-style.w720 span {
   max-width: 720px;
 }
+.archive-wrap .info-style.w720 span.mb0 {
+  margin-bottom: 0;
+}
 .archive-wrap.music-wrap {
   padding-bottom: 60px;
 }
@@ -7033,10 +7036,17 @@ main.zIndex {
   }
 }
 
+.text-new {
+  margin-bottom: 0 !important;
+}
+@media (max-width: 1100px) {
+  .text-new {
+    margin-bottom: 15px !important;
+  }
+}
 @media (max-width: 767px) {
   .text-new {
     margin-right: 20px;
-    margin-bottom: 0 !important;
   }
 }
 
