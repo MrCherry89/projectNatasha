@@ -3014,3 +3014,18 @@ main.zIndex {
         
       }
 }
+
+.video-style{
+  .video{
+          @media (max-width: 1024px) {
+        width: 380px;
+        height: 210px;
+      }
+                @media (max-width: 767px) {
+        width: 100%;
+        height: 50vw;
+        max-width: 100% !important;
+      }
+  }
+
+}
