@@ -267,7 +267,3 @@ if (form && success) {
   });
 }
 
-function showSuccess() {
-  form.classList.add('is-hidden');
-  success.classList.add('is-visible');
-}
