@@ -513,7 +513,8 @@
           font-size: 18px;
         }
       }
-      &:hover {
+      @media(min-width: 768px){
+        &:hover {
         .text {
           color: #c30d14;
         }
@@ -525,6 +526,7 @@
             opacity: 1;
           }
         }
+      }
       }
       &:nth-child(1) {
         .img-wrap {
