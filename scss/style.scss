@@ -3040,5 +3040,6 @@ main.zIndex {
 }
 
 .feedback-form.is-hidden {
-  display: none;
+  display: none !important;
 }
+

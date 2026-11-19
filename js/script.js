@@ -266,3 +266,8 @@ if (form && success) {
     success.classList.add('is-visible');
   });
 }
+
+function showSuccess() {
+  form.classList.add('is-hidden');
+  success.classList.add('is-visible');
+}
