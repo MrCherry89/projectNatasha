@@ -7064,4 +7064,17 @@ main.zIndex {
   }
 }
 
+.form-success {
+  margin-top: 30px;
+  display: none;
+}
+
+.form-success.is-visible {
+  display: block;
+}
+
+.feedback-form.is-hidden {
+  display: none;
+}
+
 /*# sourceMappingURL=style.css.map */

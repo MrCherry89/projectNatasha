@@ -248,3 +248,21 @@ $(document).ready(function () {
     iframes.forEach((iframe) => observer.observe(iframe));
   });
 });
+
+
+const form = document.querySelector('.feedback-form');
+const success = document.querySelector('.form-success');
+
+if (form && success) {
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    if (!form.checkValidity()) {
+      form.reportValidity();
+      return;
+    }
+
+    form.classList.add('is-hidden');
+    success.classList.add('is-visible');
+  });
+}
